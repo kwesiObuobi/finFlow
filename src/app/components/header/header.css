@@ -1,0 +1,7 @@
+#header {
+  padding: 1rem 0;
+}
+
+.header-container {
+  background-color: var(--color-gray-0);
+}

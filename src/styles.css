@@ -14,9 +14,10 @@
 }
 
 :root {
-  --color-secondary: #0a8de4;
-  /* --color-primary: #11d68b; */
-  --color-primary: #ffc800;
+  /* --color-secondary: #0a8de4; */
+  --color-secondary: #ffc800;
+  --color-primary: #11d68b;
+  /* --color-primary: #ffc800; */
   --color-gray-0: #fff;
   --color-gray-100: #ecf2f6;
   --color-gray-200: #d9dfe7;

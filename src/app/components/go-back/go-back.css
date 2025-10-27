@@ -1,0 +1,13 @@
+.go-back {
+  border: solid 1px #333;
+  padding: 0.7rem;
+  border-radius: var(--radius-2);
+  display: block;
+  margin-top: 0.7rem;
+}
+
+.go-back:hover {
+  color: white;
+  cursor: pointer;
+  background-color: #555151;
+}

@@ -11,6 +11,9 @@
       <label for="url">Category Image Url</label>
       <input type="url" name="url" id="url" placeholder="https://wwww.unsplash.com/pets.jpg" required />
     </div>
-    <input id="submit" type="submit" value="Create" (click)="handleClick()" />
+    <div class="create-or-back">
+      <input id="submit" type="submit" value="Create" (click)="handleClick()" />
+      <app-go-back />
+    </div>
   </form>
 </div>

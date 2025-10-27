@@ -1,0 +1,20 @@
+.page-heading {
+  border-bottom: solid 1px var(--color-secondary);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.page-heading p {
+  font-weight: bold;
+}
+
+.page-heading button {
+  margin-left: auto;
+}
+
+.zero-categories {
+  padding: 1rem;
+}

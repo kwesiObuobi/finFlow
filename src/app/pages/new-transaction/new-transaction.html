@@ -1,1 +1,16 @@
-<p>new-transaction works!</p>
+<!DOCTYPE html>
+<app-header />
+<div class="container new-category-container">
+  <h4>Record new category</h4>
+  <form action="">
+    <div class="form-control">
+      <label for="name">Item Name</label>
+      <input type="text" name="name" id="name" placeholder="for example, hand bag" required />
+    </div>
+    <div class="form-control">
+      <label for="price">Item price</label>
+      <input type="number" name="price" id="price" placeholder="price in usd" required />
+    </div>
+    <input id="submit" type="submit" value="Add" (click)="handleClick()" />
+  </form>
+</div>

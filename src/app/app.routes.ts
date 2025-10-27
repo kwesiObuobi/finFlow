@@ -3,6 +3,7 @@ import { Splashscreen } from './pages/splashscreen/splashscreen';
 import { CategoriesPage } from './pages/categories-page/categories-page';
 import { NewCategory } from './pages/new-category/new-category';
 import { SingleCategory } from './pages/single-category/single-category';
+import { NewTransaction } from './pages/new-transaction/new-transaction';
 
 export const routes: Routes = [
   {
@@ -27,7 +28,7 @@ export const routes: Routes = [
   },
   {
     path: 'categories/:categoryId/transaction',
-    component: Splashscreen,
+    component: NewTransaction,
     pathMatch: 'full',
   }
 ];

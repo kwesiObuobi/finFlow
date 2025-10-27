@@ -33,4 +33,10 @@ input#submit:hover {
   transition: var(--transition);
 }
 
+.create-or-back {
+  display: flex;
+  width: 30ch;
+  justify-content: space-between;
+}
+
 

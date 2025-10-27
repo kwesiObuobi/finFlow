@@ -1,10 +1,11 @@
 import { Component, inject } from '@angular/core';
 import { Header } from "../../components/header/header";
 import { Router, RouterLink } from '@angular/router'
+import { GoBack } from "../../components/go-back/go-back";
 
 @Component({
   selector: 'app-categories-page',
-  imports: [Header, RouterLink],
+  imports: [Header, RouterLink, GoBack],
   templateUrl: './categories-page.html',
   styleUrl: './categories-page.css',
 })

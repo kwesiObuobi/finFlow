@@ -17,7 +17,11 @@
 
   <div class="h4-box">
     <h4>transactions</h4>
-    <a routerLink="/categories/Miscellaneous/transaction" class="btn primary">Add new transaction</a>
+    <div class="add-or-back">
+      <a routerLink="/categories/Miscellaneous/transaction" class="btn primary">Add new transaction</a>
+      <app-go-back />
+    </div>
+    <!-- <a routerLink="/categories/Miscellaneous/transaction" class="btn primary">Add new transaction</a> -->
   </div>
   <ol class="transactions-list">
     <li class="transaction-item">

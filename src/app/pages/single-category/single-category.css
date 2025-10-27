@@ -28,6 +28,12 @@ img {
   align-items: center;
 }
 
+.add-or-back {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
 .transactions-list {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

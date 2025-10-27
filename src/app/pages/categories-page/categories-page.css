@@ -36,6 +36,10 @@
   gap: 1rem;
 }
 
+.category-item:hover {
+  cursor: pointer;
+}
+
 .img-box {
   width: 7rem;
   height: 7rem;

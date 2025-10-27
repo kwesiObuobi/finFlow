@@ -1,0 +1,36 @@
+.new-category-container {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  width: 30ch;
+  padding: 1rem;
+  border: solid 1px #ddd;
+  margin-bottom: 1rem;
+  border-radius: var(--radius-2);
+}
+
+input {
+  outline: solid 1px #ddd;
+  padding: 1rem;
+  border-radius: var(--radius-2);
+}
+
+input#submit {
+  background-color: var(--color-primary);
+  color: white;
+}
+
+input#submit:hover {
+  cursor: pointer;
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+}
+
+

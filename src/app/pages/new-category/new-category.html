@@ -1,1 +1,16 @@
-<p>new-category works!</p>
+<!DOCTYPE html>
+<app-header />
+<div class="container new-category-container">
+  <h4>Create new category</h4>
+  <form action="">
+    <div class="form-control">
+      <label for="name">Category Name</label>
+      <input type="text" name="name" id="name" placeholder="for example, pets" required />
+    </div>
+    <div class="form-control">
+      <label for="url">Category Image Url</label>
+      <input type="url" name="url" id="url" placeholder="https://wwww.unsplash.com/pets.jpg" required />
+    </div>
+    <input id="submit" type="submit" value="Create" (click)="handleClick()" />
+  </form>
+</div>

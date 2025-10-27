@@ -11,7 +11,8 @@
   font-weight: bold;
 }
 
-.page-heading button {
+.page-heading a {
+  display: block;
   margin-left: auto;
 }
 

@@ -1,6 +1,7 @@
 import { Routes } from '@angular/router';
 import { Splashscreen } from './pages/splashscreen/splashscreen';
 import { CategoriesPage } from './pages/categories-page/categories-page';
+import { NewCategory } from './pages/new-category/new-category';
 
 export const routes: Routes = [
   {
@@ -11,6 +12,11 @@ export const routes: Routes = [
   {
     path: 'categories',
     component: CategoriesPage,
+    pathMatch: 'full',
+  },
+  {
+    path: 'categories/new',
+    component: NewCategory,
     pathMatch: 'full',
   },
   {

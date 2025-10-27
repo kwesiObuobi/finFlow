@@ -1,0 +1,52 @@
+.head {
+  display: flex;
+  background-color: var(--color-gray-0);
+  border: solid 1px #ddd;
+  border-radius: var(--radius-2);
+  padding: 0.5rem;
+  margin: 0.5rem;
+  gap: 1rem;
+}
+
+.img-box {
+  width: 7rem;
+  height: 7rem;
+}
+
+img {
+  border-radius: var(--radius-2);
+}
+
+.category-total {
+  margin-left: auto;
+}
+
+.h4-box {
+  margin: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.transactions-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem;
+}
+
+.transaction-item {
+  border: solid 1px #ddd;
+  border-radius: var(--radius-2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  background-color: white;
+}
+
+.transaction-item p:last-child {
+  background-color: var(--color-gray-100);
+  border: solid 1px #ddd;
+  padding: 0.2rem;
+  border-radius: var(--radius-1);
+}

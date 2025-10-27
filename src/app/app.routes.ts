@@ -2,6 +2,7 @@ import { Routes } from '@angular/router';
 import { Splashscreen } from './pages/splashscreen/splashscreen';
 import { CategoriesPage } from './pages/categories-page/categories-page';
 import { NewCategory } from './pages/new-category/new-category';
+import { SingleCategory } from './pages/single-category/single-category';
 
 export const routes: Routes = [
   {
@@ -20,7 +21,12 @@ export const routes: Routes = [
     pathMatch: 'full',
   },
   {
-    path: 'categories/:categoryId/transactions',
+    path: 'categories/:categoryId',
+    component: SingleCategory,
+    pathMatch: 'full',
+  },
+  {
+    path: 'categories/:categoryId/transaction',
     component: Splashscreen,
     pathMatch: 'full',
   }
